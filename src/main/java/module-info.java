@@ -10,6 +10,7 @@ module com.rafiatu.processor {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.rafiatu.processor to javafx.fxml;
     exports com.rafiatu.processor;
